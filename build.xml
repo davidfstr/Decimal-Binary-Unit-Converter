@@ -1,0 +1,31 @@
+<project name="DecBinUnitConverter" default="compile">
+	<target name="compile">
+		<mkdir dir="bin"/>
+		<javac srcdir="src" destdir="bin">
+			<classpath>
+				<pathelement location="lib/forms-1.2.1/forms-1.2.1.jar"/>
+			</classpath>
+		</javac>
+	</target>
+	
+	<!--
+	<target name="run">
+		<java classname="DecBinUnitConverter">
+			<classpath>
+				<pathelement location="bin"/>
+				<pathelement location="lib/forms-1.2.1/forms-1.2.1.jar"/>
+			</classpath>
+		</java>
+	</target>
+	-->
+	
+	<target name="jar" depends="compile">
+		<jar jarfile="DecBinUnitConverter.jar">
+			<fileset dir="bin"/>
+			<zipfileset excludes="META-INF/*.SF" src="lib/forms-1.2.1/forms-1.2.1.jar"/>
+			<manifest>
+				<attribute name="Main-Class" value="DecBinUnitConverter"/>
+			</manifest>
+		</jar>
+	</target>
+</project>
