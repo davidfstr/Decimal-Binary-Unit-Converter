@@ -20,12 +20,25 @@ This program helps you convert these units easily.
 * Java 1.5 or later
 
 
-## Installation
+## Applet
 
-This program can be run either:
+If your web browser supports Java applets, you should see the application below:
 
-* as an **applet** in a web browser or
-* as a **standalone program**.
+<script src="https://raw.github.com/davidfstr/Decimal-Binary-Unit-Converter/master/lib/deployJava.js"></script>
+<script> 
+    var attributes = {
+        code:'DecBinUnitConverter.class',
+        archive:'https://github.com/downloads/davidfstr/Decimal-Binary-Unit-Converter/DecBinUnitConverter-1.0.jar',
+        width:597,
+        height:346
+    } ;
+    var parameters = { boxbgcolor: 'cyan', boxborder: 'true' } ; 
+    deployJava.runApplet(attributes, parameters, '1.4');
+</script>
+
+## Download
+
+* [Decimal-Binary Unit Converter 1.0](https://github.com/downloads/davidfstr/Decimal-Binary-Unit-Converter/DecBinUnitConverter-1.0.jar)
 
 
 ## History
