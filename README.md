@@ -22,21 +22,13 @@ This program helps you convert these units easily.
 
 ## Applet
 
-If your web browser supports Java applets, you should see the application below:
+If your web browser supports Java applets, you can use the application on the [applet page].
 
-<script src="https://raw.github.com/davidfstr/Decimal-Binary-Unit-Converter/master/lib/deployJava.js"></script>
-<script> 
-    var attributes = {
-        code:'DecBinUnitConverter.class',
-        archive:'https://github.com/downloads/davidfstr/Decimal-Binary-Unit-Converter/DecBinUnitConverter-1.0.jar',
-        width:597,
-        height:346
-    } ;
-    var parameters = { boxbgcolor: 'cyan', boxborder: 'true' } ; 
-    deployJava.runApplet(attributes, parameters, '1.4');
-</script>
+[applet page]: https://raw.github.com/davidfstr/Decimal-Binary-Unit-Converter/master/index_github.html
 
 ## Download
+
+This program can also be run as a standalone Java application:
 
 * [Decimal-Binary Unit Converter 1.0](https://github.com/downloads/davidfstr/Decimal-Binary-Unit-Converter/DecBinUnitConverter-1.0.jar)
 
