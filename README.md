@@ -24,7 +24,7 @@ This program helps you convert these units easily.
 
 If your web browser supports Java applets, you can use the application on the [applet page].
 
-[applet page]: https://raw.github.com/davidfstr/Decimal-Binary-Unit-Converter/master/index_github.html
+[applet page]: http://davidfstr.github.com/Decimal-Binary-Unit-Converter/
 
 ## Download
 
