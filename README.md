@@ -12,7 +12,8 @@ Different units for bytes are used in different places:
 
 This program helps you convert these units easily.
 
-<img src="https://github.com/davidfstr/Decimal-Binary-Unit-Converter/blob/master/docs/screenshot.png" />
+<img src="https://raw.github.com/davidfstr/Decimal-Binary-Unit-Converter/master/docs/screenshot.png" />
+
 
 ## Requirements
 
