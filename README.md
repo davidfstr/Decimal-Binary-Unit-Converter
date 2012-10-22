@@ -18,6 +18,7 @@ This program helps you convert these units easily.
 ## Requirements
 
 * Java 1.5 or later
+* Ant or Make &mdash; to compile
 
 
 ## Applet
@@ -31,6 +32,13 @@ If your web browser supports Java applets, you can use the application on the [a
 This program can also be run as a standalone Java application:
 
 * [Decimal-Binary Unit Converter 1.0](https://github.com/downloads/davidfstr/Decimal-Binary-Unit-Converter/DecBinUnitConverter-1.0.jar)
+
+
+## Compiling
+
+* To compile all source files locally, run `ant` or `make`.
+* To run locally compiled files, use `ant run` or `make run`.
+* To package everything in a distributable JAR, use `ant jar`.
 
 
 ## History

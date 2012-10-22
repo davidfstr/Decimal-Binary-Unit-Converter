@@ -1,23 +1,21 @@
 <project name="DecBinUnitConverter" default="compile">
 	<target name="compile">
 		<mkdir dir="bin"/>
-		<javac srcdir="src" destdir="bin">
+		<javac srcdir="src" destdir="bin" includeantruntime="false">
 			<classpath>
 				<pathelement location="lib/forms-1.2.1/forms-1.2.1.jar"/>
 			</classpath>
 		</javac>
 	</target>
 	
-	<!--
 	<target name="run">
-		<java classname="DecBinUnitConverter">
+		<java classname="DecBinUnitConverter" fork="true">
 			<classpath>
 				<pathelement location="bin"/>
 				<pathelement location="lib/forms-1.2.1/forms-1.2.1.jar"/>
 			</classpath>
 		</java>
 	</target>
-	-->
 	
 	<target name="jar" depends="compile">
 		<jar jarfile="DecBinUnitConverter.jar">
@@ -27,5 +25,9 @@
 				<attribute name="Main-Class" value="DecBinUnitConverter"/>
 			</manifest>
 		</jar>
+	</target>
+	
+	<target name="runjar">
+		<java jar="DecBinUnitConverter.jar" fork="true" />
 	</target>
 </project>
