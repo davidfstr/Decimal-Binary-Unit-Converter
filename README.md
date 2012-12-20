@@ -31,7 +31,7 @@ If your web browser supports Java applets, you can use the application on the [a
 
 This program can also be run as a standalone Java application:
 
-* [Decimal-Binary Unit Converter 1.0](https://github.com/downloads/davidfstr/Decimal-Binary-Unit-Converter/DecBinUnitConverter-1.0.jar)
+* [Decimal-Binary Unit Converter 1.0](http://davidfstr.github.com/Decimal-Binary-Unit-Converter/assets/DecBinUnitConverter-1.0.jar)
 
 
 ## Compiling
